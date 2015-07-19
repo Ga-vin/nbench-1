@@ -1,0 +1,10 @@
+sprintf(buffer,"**System used for compilation:\n");
+output_string(buffer);
+sprintf(buffer,"**SylixOS kernel version: 1.2.0-rc1 GEMINI(b) \n");
+output_string(buffer);
+sprintf(buffer,"**C compiler: \n");
+output_string(buffer);
+sprintf(buffer,"**libc: \n");
+output_string(buffer);
+sprintf(buffer,"**Date of compilation: Tue Jul 14 23:05:40 EDT 2015\n");
+output_string(buffer);
