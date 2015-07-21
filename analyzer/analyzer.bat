@@ -7,7 +7,7 @@ gprof2dot.py -e0 -n0 %APP_NAME%_gprof.log > %APP_NAME%_gprof.dot
 dot -Tpng %APP_NAME%_gprof.dot -o %APP_NAME%_gprof.png
 dot -Tsvg %APP_NAME%_gprof.dot -o %APP_NAME%_gprof.svg
 
-set APP=../../libgmon/libsylixos/Debug/libvpmpdm.so
+set APP=../../libvpmpdm/libsylixos/Debug/libvpmpdm.so
 set APP_NAME=libvpmpdm
 set APP_GMON=libvpmpdm_gmon.out
 
